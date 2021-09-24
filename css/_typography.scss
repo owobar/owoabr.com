@@ -1,0 +1,141 @@
+h1 {
+    font-size: 200px;
+    font-weight: 900;
+    line-height: 120%;
+    color: $d-mode-text-color;
+}
+
+h2 {
+    font-size: 150px;
+    font-weight: 900;
+    line-height: 120%;
+    color: $d-mode-text-color;
+}
+
+h3 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 120%;
+    color: $d-mode-text-color;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 120%;
+    color: $d-mode-text-color;
+}
+
+p,
+h5 {
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+h6 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: .05em;
+    color: $d-mode-text-color;
+}
+
+// @for $i from 1 through 20 {
+//     .w#{5*$i}p {
+//         width: 5% * $i;
+//     }
+// }
+// @for $i from 1 through 9 {
+//     .fw#{$i} {
+//         font-weight: ($i * 100);
+//     }
+// }
+// @for $i from 1 through 5 {
+//     .my#{$i} {
+//         margin: (10px * $i) 0;
+//     }
+//     .mx#{$i} {
+//         margin: 0 (10px * $i);
+//     }
+//     .ml#{$i} {
+//         margin-left: (10px * $i);
+//     }
+//     .mr#{$i} {
+//         margin-right: (10px * $i);
+//     }
+//     .mt#{$i} {
+//         margin-top: (10px * $i);
+//     }
+//     .mb#{$i} {
+//         margin-bottom: (10px * $i);
+//     }
+// }
+// .m {
+//     &-a {
+//         margin: auto;
+//     }
+//     &t-a {
+//         margin-top: auto;
+//     }
+//     &b-a {
+//         margin-bottom: auto;
+//     }
+//     &r-a {
+//         margin-right: auto;
+//     }
+//     &l-a {
+//         margin-left: auto;
+//     }
+// }
+// .d {
+//     &-ib {
+//         display: inline-block;
+//     }
+//     &-if {
+//         display: inline-flex;
+//     }
+//     &-f {
+//         display: flex;
+//     }
+//     &-b {
+//         display: block;
+//     }
+// }
+// .flex {
+//     &-jc {
+//         justify-content: center;
+//     }
+//     &-je {
+//         justify-content: flex-end;
+//     }
+//     &-js {
+//         justify-content: flex-start;
+//     }
+//     &-jsb {
+//         justify-content: space-between;
+//     }
+//     &-jsa {
+//         justify-content: space-around;
+//     }
+//     &-aic {
+//         align-items: center;
+//     }
+//     &-ais {
+//         align-items: flex-start;
+//     }
+//     &-aie {
+//         align-items: flex-end;
+//     }
+//     &-fw {
+//         flex-flow: wrap;
+//     }
+// }
+// .pos {
+//     &-a {
+//         position: absolute;
+//     }
+//     &-r {
+//         position: relative;
+//     }
+// }

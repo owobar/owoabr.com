@@ -1,0 +1,109 @@
+.btn {
+    color: white;
+    position: relative;
+    display: inline-block;
+    padding: 12px 12px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(50px);
+    transition: .3s;
+    &:hover {
+        opacity: .6;
+    }
+    &-card {
+        &-nolimit {
+            min-height: 68px;
+            display: inline-flex;
+            font-weight: 700 !important;
+            align-items: center;
+            padding-right: 64px;
+            padding-left: 24px;
+            img {
+                border-radius: 100vw;
+                margin-right: 10px;
+                width: 44px;
+                height: 44px;
+            }
+        }
+        &-big {
+            display: flex;
+            max-width: 300px;
+            min-height: 100px;
+            text-transform: uppercase;
+            line-height: 120%;
+            font-weight: 700;
+            p {
+                display: block;
+                width: 50%;
+            }
+            .btn-arrow {
+                bottom: 12px;
+            }
+        }
+        &-verybig {
+            display: flex;
+            align-items: center;
+            max-width: 500px;
+            min-height: 156px;
+            padding: 24px;
+            h4 {
+                text-transform: uppercase;
+            }
+            .btn-arrow {
+                bottom: 12px;
+            }
+            img {
+                border-radius: 100vw;
+                margin-right: 18px;
+                width: 100px;
+                height: 100px;
+            }
+        }
+        &-small {
+            min-height: 68px;
+            max-width: 300px;
+            display: flex;
+            font-weight: 700 !important;
+            align-items: center;
+            padding-right: 64px;
+            img {
+                border-radius: 100vw;
+                margin-right: 10px;
+                width: 44px;
+                height: 44px;
+            }
+        }
+    }
+    &-arrow {
+        position: absolute;
+        right: 12px;
+        z-index: 2;
+        width: 32px;
+        height: 32px;
+        display: block;
+        background-image: url("arrow.svg");
+        margin-left: 15px;
+        margin-right: 5px;
+    }
+    &-primary {
+        background-color: #0066FF;
+    }
+    &-pad {
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+    }
+    &-small {
+        border-radius: 100vw;
+        font-weight: 700 !important;
+        padding: 12px 12px;
+        display: inline-flex;
+        align-items: center;
+        img {
+            margin-top: -6px;
+            margin-bottom: -6px;
+            height: 22px;
+            width: 22px;
+            margin-right: 10px;
+        }
+    }
+}
